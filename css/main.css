@@ -4,6 +4,11 @@ body {
 }
 #map {
   position:absolute;
-  width:100%;
+  width:70%;
   height:100%;
+}
+#sidebar {
+  width:30%;
+  height:100%;
+  float:right;
 }

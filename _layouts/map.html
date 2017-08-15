@@ -5,6 +5,12 @@
 
   <body>
     <div id="map"></div>
+    <div id="sidebar">
+      {% for post in site.posts %}
+      <h1>{{ post.title }}</h1>
+      <p>{{ post.desc }}</p>
+      {% endfor %}
+    </div>
     <script>
       // set up variables to use during jekyll loop
       var lat, lng, content, marker,
